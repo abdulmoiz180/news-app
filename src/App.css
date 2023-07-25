@@ -1,0 +1,28 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.container {
+  margin-top: 80px;
+  width: 80%;
+  margin: auto;
+}
+a {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #aa8d56;
+  color: #aa8d56;
+  outline: medium none;
+  padding: 15px;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #aa8d56;
+  color: #ffffff;
+}
+.btn-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
